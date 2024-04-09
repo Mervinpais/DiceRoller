@@ -5,16 +5,52 @@ VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiceRoller", "DiceRoller\DiceRoller.csproj", "{F7FD95BB-2D3E-407D-AFD3-02C177F28E92}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "DiceRollerInstaller", "DiceRollerInstaller\DiceRollerInstaller.vdproj", "{291A350F-8D74-482E-84B2-B98A27EE1E17}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{F7FD95BB-2D3E-407D-AFD3-02C177F28E92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F7FD95BB-2D3E-407D-AFD3-02C177F28E92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7FD95BB-2D3E-407D-AFD3-02C177F28E92}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{F7FD95BB-2D3E-407D-AFD3-02C177F28E92}.Debug|ARM.Build.0 = Debug|Any CPU
+		{F7FD95BB-2D3E-407D-AFD3-02C177F28E92}.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{F7FD95BB-2D3E-407D-AFD3-02C177F28E92}.Debug|ARM64.Build.0 = Debug|Any CPU
+		{F7FD95BB-2D3E-407D-AFD3-02C177F28E92}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F7FD95BB-2D3E-407D-AFD3-02C177F28E92}.Debug|x64.Build.0 = Debug|Any CPU
+		{F7FD95BB-2D3E-407D-AFD3-02C177F28E92}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F7FD95BB-2D3E-407D-AFD3-02C177F28E92}.Debug|x86.Build.0 = Debug|Any CPU
 		{F7FD95BB-2D3E-407D-AFD3-02C177F28E92}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7FD95BB-2D3E-407D-AFD3-02C177F28E92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7FD95BB-2D3E-407D-AFD3-02C177F28E92}.Release|ARM.ActiveCfg = Release|Any CPU
+		{F7FD95BB-2D3E-407D-AFD3-02C177F28E92}.Release|ARM.Build.0 = Release|Any CPU
+		{F7FD95BB-2D3E-407D-AFD3-02C177F28E92}.Release|ARM64.ActiveCfg = Release|Any CPU
+		{F7FD95BB-2D3E-407D-AFD3-02C177F28E92}.Release|ARM64.Build.0 = Release|Any CPU
+		{F7FD95BB-2D3E-407D-AFD3-02C177F28E92}.Release|x64.ActiveCfg = Release|Any CPU
+		{F7FD95BB-2D3E-407D-AFD3-02C177F28E92}.Release|x64.Build.0 = Release|Any CPU
+		{F7FD95BB-2D3E-407D-AFD3-02C177F28E92}.Release|x86.ActiveCfg = Release|Any CPU
+		{F7FD95BB-2D3E-407D-AFD3-02C177F28E92}.Release|x86.Build.0 = Release|Any CPU
+		{291A350F-8D74-482E-84B2-B98A27EE1E17}.Debug|Any CPU.ActiveCfg = Debug
+		{291A350F-8D74-482E-84B2-B98A27EE1E17}.Debug|ARM.ActiveCfg = Debug
+		{291A350F-8D74-482E-84B2-B98A27EE1E17}.Debug|ARM64.ActiveCfg = Debug
+		{291A350F-8D74-482E-84B2-B98A27EE1E17}.Debug|x64.ActiveCfg = Debug
+		{291A350F-8D74-482E-84B2-B98A27EE1E17}.Debug|x86.ActiveCfg = Debug
+		{291A350F-8D74-482E-84B2-B98A27EE1E17}.Release|Any CPU.ActiveCfg = Release
+		{291A350F-8D74-482E-84B2-B98A27EE1E17}.Release|ARM.ActiveCfg = Release
+		{291A350F-8D74-482E-84B2-B98A27EE1E17}.Release|ARM64.ActiveCfg = Release
+		{291A350F-8D74-482E-84B2-B98A27EE1E17}.Release|x64.ActiveCfg = Release
+		{291A350F-8D74-482E-84B2-B98A27EE1E17}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
